@@ -33,6 +33,11 @@ Various models were trained to classify different attack categories. LinearSVC w
 - **Confusion Matrix**: To understand misclassifications.
 - **Cross_Val_Score**: To measure model performance on unseen data.
 
+Trained TfidfVectorizer for the chatbot to find the related news from the text file.The following functions were made:
+
+- **Response**: To take the input from the user and give the related news as the output.
+- **Greet**: If the user greets the bot will greet back randomly from the list.
+
 ## Results and Findings
 The project results include the following key outcomes:
 
